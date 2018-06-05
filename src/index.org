@@ -1,0 +1,69 @@
+#+Title:  Migration to Baadal
+#+Author: VLEAD
+#+PROPERTY: results output
+#+PROPERTY: exports code
+#+SETUPFILE: ./org-templates/level-0.org
+#+options: ^:nil
+#+LATEX: Literal LaTeX code for export
+#+OPTIONS: ^:nil
+* Introduction
+  This project captures the details of migration of virtual
+  labs to Baadal.
+
+  Baadal is a cloud orchestration and virtualization
+  management software developed at IITD.
+
+  For more details, Please visit following link.
+  http://www.iitd.ac.in/content/baadal-iitd-computing-cloud
+
+* Previous discussions
+  In 2015, there was discussions on moving our Virtual Labs
+  to Baadal.
+
+  1. [[https://bitbucket.org/vlead/vlead/src/master/projects/cloud/2015-03-20-notes-on-badal.org][2015-03-20-notes]] - BitBucket link
+  2. [[https://bitbucket.org/vlead/vlead/src/master/projects/cloud/2015-04-08-call-with-badal-team.org][2015-04-08-notes]] - BitBucket link
+  3. http://issues.vlabs.ac.in/projects/baadal-cluster/issues
+
+* Requirements
+  The following requirements are needed for cluster setup on
+  Baadal.
+
+  Based on the above documents( above links), extracted some
+  information. 
+
+  The following basic hardware requirements are needed for
+  base machine to setup cluster.
+
+  1. VM with following resource requirements.
+      |----------------+--------------|
+      | Resource       | Fixed        |
+      |                | (or Minimum) |
+      |----------------+--------------|
+      | RAM            | 16 GB        |
+      | Disk           | 1 TB         |
+      | CPU            | 16 Cores     |
+      | I/O throughput | 1000 IOPS    |
+      |----------------+--------------|
+  2. CentOS-6.9 Operating system
+
+  3. A VM with One public IP.
+
+      This is needed for DNS. We need to register the IP
+      with domain name provider.
+
+  4. Two LAN IPs 
+      
+      These two LAN IPs are needed for router and
+      ansible/config containers.
+
+  5. Internet facility without network proxy is needed.
+  6. Full access to the VM including SSH access from
+      IIIT-Hyderabad. That means, no firewall rules (
+      Iptables). We set our own firewall rules according to
+      our requirements.
+
+      
+  
+
+
+  
