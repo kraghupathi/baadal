@@ -68,7 +68,11 @@
   6. Internet access.
 
      Always Internet access should be available to the VM.
-  7. Admin Support
+  7. Admin Support from Baadal
+     
+     In case of any issues with the provided VM, VEAD Team
+     may need support from Baadal to troubleshoot and fixing
+     the issues.
 
       
   
