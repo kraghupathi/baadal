@@ -1,0 +1,66 @@
+#+Title: CPE Requirements of Baadal for hosting Virtual Labs 
+#+Author: Prof. Venkatesh Choppella, IIIT Hyderabad   
+#+Date:   [2018-06-06 Wed]
+
+
+* Introduction
+  This document describes the 'minimum requirements' of a
+  cloud and in particular Baadal - an offering of cloud by
+  IIT-Delhi- that enables hosting of labs by the central
+  platform engineering (CPE).
+
+* Requirements
+  2 Virtual machines (VM) are needed to test and set up the
+  Virtual Labs cluster.
+
+  Each VM should have the following configuration. 
+
+  1. Hardware 
+      |----------------+--------------|
+      | Resource       | Fixed        |
+      |                | (or Minimum) |
+      |----------------+--------------|
+      | RAM            | 16 GB        |
+      | Disk           | 1 TB         |
+      | CPU            | 16 Cores     |
+      | I/O throughput | 1000 IOPS    |
+      |----------------+--------------|
+  
+  2. Operating system : CentOS-6.9 
+
+  3. IP Addresses
+     One Public IP and Three LAN IPs with Internet access.
+     - One LAN IP for Host machine ( VM ) along with Public
+       IP. VM should have two Network Interfaces.
+       + One for Public IP ( eth0 )
+       + One for LAN IP    ( eth1 )
+     - One LAN IP for router container and
+     - One LAN IP for config/ansible container
+  
+  4. Firewall rules
+     1. The following ports should be opened for incoming
+        traffic.
+	#+BEGIN_EXAMPLE
+        22(SSH),80(HTTP),443(HTTPS),53(DNS tcp and udp) and 8080
+	#+END_EXAMPLE
+     2. Outgoing access on all ports
+
+  5. Availability
+
+     The VM should be available all times. That means, the
+     server should not go down or shutdown at any time. 
+
+  6. Internet access
+
+     Internet access available at all times. 
+
+  7. Admin Support from Baadal
+     
+     In case of any issues with the provided VM, VEAD Team
+     would need support from Baadal to troubleshoot and
+     fix the issues.
+     
+* Conclusion 
+  To conclude, the Virtual Labs project needs a cloud
+  provider that caters to all the above cloud requirements
+  and guarantees stability and continuity of service.
