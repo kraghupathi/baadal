@@ -33,7 +33,7 @@
 
   The following basic hardware requirements are needed for
   base machine to setup cluster.
-
+** Two VMs with following information
   1. VM with following resource requirements.
       |----------------+--------------|
       | Resource       | Fixed        |
@@ -53,11 +53,22 @@
        + One for LAN IP    ( eth1 )
      - One LAN IP for router container and
      - One LAN IP for config/ansible container
-  4. Internet access without network proxy is needed.
-  5. Full access to the VM including SSH access from
-     IIIT-Hyderabad. That means, without any firewall rules
-     ( Iptables) set on the VM. We set our own firewall
-     rules according to our requirements.
+  4. Firewall rules
+     1. The following ports should be opened for incoming
+        traffic.
+	#+BEGIN_EXAMPLE
+        22(SSH),80(HTTP),443(HTTPS),53(DNS tcp and udp) and 8080
+	#+END_EXAMPLE
+     2. Outgoing access on all ports
+  5. Availability
+
+     The VM should be available all times. That means, the
+     server should not go down or shutdown at any time. 
+
+  6. Internet access.
+
+     Always Internet access should be available to the VM.
+  7. Admin Support
 
       
   
