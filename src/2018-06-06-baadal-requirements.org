@@ -14,13 +14,34 @@
 
 * Introduction
   This document describes the 'minimum requirements' of
-  porting Virtual Labs Cluster (VLC) on Baadal - an offering of
-  cloud by IIT-Delhi. 
+  porting Virtual Labs Cluster (VLC) on Baadal.
+
+
+  Virtual Labs Cluster (VLC) consist of following OpenVZ
+  containers
+  1. Router
+  2. config-server
+  3. rsyslog
+  4. private dns
+  5. public-dns 
+  6. ReverseProxy web server
+  7. Nagios
+  8. ADS( Auto Deployment service)
+
+  
+  Once the cluster is setup, we would be hosting more than
+  100 labs on each VM.
+
+#+CAPTION: Network diagram of Virtul Labs cluster
+#+NAME:   fig:network-diagram
+   [[./diagrams/overall-cluster-network-diagram.png]]
 
 * Scope
   Virtual Labs Engineering and Architecture Division (VLEAD)
   ports VLC to Baadal when the following requirements are
   met.
+
+
   
 * Requirements
 
