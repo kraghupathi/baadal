@@ -41,8 +41,6 @@
   ports VLC to Baadal when the following requirements are
   met.
 
-
-  
 * Requirements
 
 ** Virtual Machines
