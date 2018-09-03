@@ -1,0 +1,103 @@
+#+TITLE: Registration Form
+#+AUTHOR: VLEAD
+#+DATE: [2018-09-03 Mon]
+#+SETUPFILE: ./org-templates/level-0.org
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
+#+OPTIONS: ^:nil
+
+* Introduction
+  This document contains the details asked for by the Baadal
+  team for the registration of our Virtual Labs with the Baadal.
+
+* Name of the Application
+
+* Description
+
+* Details of Organization
+
+  |--------+---|
+  | Name:  |   |
+  |--------+---|
+  | Phone: |   |
+  |--------+---|
+  | Email: |   |
+  |--------+---|
+
+* Details of PI/co-PI:
+  |--------+---|
+  | Name:  |   |
+  | Phone: |   |
+  | Email: |   |
+  |--------+---|
+
+*  Details of Contact Person 1:
+   |--------+---+---|
+   | Name:  |   |   |
+   |--------+---+---|
+   | Phone: |   |   |
+   |--------+---+---|
+   | Email: |   |   |
+   |--------+---+---|
+
+*  Details of Contact Person 2
+   |--------+---+---|
+   | Name:  |   |   |
+   |--------+---+---|
+   | Phone: |   |   |
+   |--------+---+---|
+   | Email: |   |   |
+   |--------+---+---|
+
+* Details of requested VM(s):
+  |-------+------+-----|
+  | S.No. | OS   |     |
+  |-------+------+-----|
+  | RAM   | (GB) | CPU |
+  |-------+------+-----|
+  | ARCH  |      |     |
+  |-------+------+-----|
+  | HDD   | (GB) |     |
+  |-------+------+-----|
+  | QTY   |      |     |
+  |-------+------+-----|
+
+* Extra Storage Details:
+|-------+---------------------------+----------|
+| S.No. | Type(NFS/iSCSI/RAW/QCOW2) | Size(GB) |
+|-------+---------------------------+----------|
+|       |                           |          |
+|-------+---------------------------+----------|
+
+* Number of Public IP(s):
+
+* Ports to be opened for public access:
+
+
+* Declaration
+  We declare that our application has Security Audit
+  Clearance. We are responsible for properly configuring and
+  using the Service Offerings and taking our own steps to
+  maintain appropriate security, protection of our content,
+  which may include the use of encryption technology to
+  protect our Content from unauthorized access..  IIT Delhi
+  shall not be responsible for whatever security concerns
+  that may arise due to our application and it will be sole
+  responsibility of our organization.
+
+|--------------------------------------+---------------------------------|
+| Name and Signature of Contact Person | Name and Signature of PI/ co-PI |
+|--------------------------------------+---------------------------------|
+|                                      |                                 |
+|                                      |                                 |
+|                                      |                                 |
+|                                      |                                 |
+|                                      |                                 |
+|                                      |                                 |
+|                                      |                                 |
+|--------------------------------------+---------------------------------|
+
+
+*NOTE: Please fill this form by hand(in blue ink) and send
+its scanned copy to baadalsupport@cse.iitd.ernet.in*
+  

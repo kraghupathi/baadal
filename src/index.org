@@ -1,11 +1,13 @@
-#+Title:  Migration to Baadal
-#+Author: VLEAD
-#+PROPERTY: results output
-#+PROPERTY: exports code
+#+TITLE: Migration to Baadal
+#+AUTHOR: VLEAD
+#+DATE: [2018-09-03 Mon]
 #+SETUPFILE: ./org-templates/level-0.org
-#+options: ^:nil
-#+LATEX: Literal LaTeX code for export
+#+TAGS: boilerplate(b)
+#+EXCLUDE_TAGS: boilerplate
 #+OPTIONS: ^:nil
+#+LATEX: Literal LaTeX code for export
+
+
 * Introduction
   This project captures the details of migration of virtual
   labs to Baadal.
@@ -16,6 +18,7 @@
   For more details, Please visit following link.
   http://www.iitd.ac.in/content/baadal-iitd-computing-cloud
 
+
 * Previous discussions
   In 2015, there was discussions on moving our Virtual Labs
   to Baadal.
@@ -24,54 +27,14 @@
   2. [[https://bitbucket.org/vlead/vlead/src/master/projects/cloud/2015-04-08-call-with-badal-team.org][2015-04-08-notes]] - BitBucket link
   3. http://issues.vlabs.ac.in/projects/baadal-cluster/issues
 
-* Requirements
-  The following requirements are needed for cluster setup on
-  Baadal.
+* Registration Form
+  [[./registration-form.org][Link]] to the registration form.  The form contains the
+  requirements in terms of infrastructure that Baadal has to
+  provide for hosting Virtual Labs cluster. 
+  
 
-  Based on the above documents( above links), extracted some
-  information. 
 
-  The following basic hardware requirements are needed for
-  base machine to setup cluster.
-** Two VMs with following information
-  1. VM with following resource requirements.
-      |----------------+--------------|
-      | Resource       | Fixed        |
-      |                | (or Minimum) |
-      |----------------+--------------|
-      | RAM            | 16 GB        |
-      | Disk           | 1 TB         |
-      | CPU            | 16 Cores     |
-      | I/O throughput | 1000 IOPS    |
-      |----------------+--------------|
-  2. CentOS-6.9 Operating system
 
-  3. One Public IP and Three LAN IPs with Internet access.
-     - One LAN IP for Host machine ( VM ) along with Public
-       IP. VM should have two Network Interfaces.
-       + One for Public IP ( eth0 )
-       + One for LAN IP    ( eth1 )
-     - One LAN IP for router container and
-     - One LAN IP for config/ansible container
-  4. Firewall rules
-     1. The following ports should be opened for incoming
-        traffic.
-	#+BEGIN_EXAMPLE
-        22(SSH),80(HTTP),443(HTTPS),53(DNS tcp and udp) and 8080
-	#+END_EXAMPLE
-     2. Outgoing access on all ports
-  5. Availability
-
-     The VM should be available all times. That means, the
-     server should not go down or shutdown at any time. 
-  6. Internet access.
-
-     Always Internet access should be available to the VM.
-  7. Admin Support from Baadal
-     
-     In case of any issues with the provided VM, VEAD Team
-     needs support from Baadal to troubleshoot and fixing
-     the issues
 
       
   
