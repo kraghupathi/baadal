@@ -19,6 +19,16 @@
   http://www.iitd.ac.in/content/baadal-iitd-computing-cloud
 
 
+* Registration Form
+  [[./registration-form.org][Link]] to the registration form.  The form contains the
+  requirements in terms of infrastructure that Baadal is
+  requisitioned for hosting the Virtual Labs cluster.
+
+* What VLEAD asked Baadal earlier
+  What made requests to the Baadal before the effort on
+  cluster evolution is started.  Those are captured [[./communications/2018-06-06-baadal-requirements.org][here]].
+
+
 * Previous discussions
   In 2015, there was discussions on moving our Virtual Labs
   to Baadal.
@@ -26,12 +36,6 @@
   1. [[https://bitbucket.org/vlead/vlead/src/master/projects/cloud/2015-03-20-notes-on-badal.org][2015-03-20-notes]] - BitBucket link
   2. [[https://bitbucket.org/vlead/vlead/src/master/projects/cloud/2015-04-08-call-with-badal-team.org][2015-04-08-notes]] - BitBucket link
   3. http://issues.vlabs.ac.in/projects/baadal-cluster/issues
-
-* Registration Form
-  [[./registration-form.org][Link]] to the registration form.  The form contains the
-  requirements in terms of infrastructure that Baadal has to
-  provide for hosting Virtual Labs cluster. 
-  
 
 
 
