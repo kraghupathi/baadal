@@ -11,18 +11,18 @@
   team for the registration of our Virtual Labs with the Baadal.
 
 * Name of the Application
-
+  Virtual Labs Cluster
 * Description
-
+  A rancher cluster which provisions all the labs containerized in Docker.
 * Details of Organization
 
-  |--------+---|
-  | Name:  |   |
-  |--------+---|
-  | Phone: |   |
-  |--------+---|
-  | Email: |   |
-  |--------+---|
+  |--------+----------------|
+  | Name:  | IIIT Hyderabad |
+  |--------+----------------|
+  | Phone: |                |
+  |--------+----------------|
+  | Email: |                |
+  |--------+----------------|
 
 * Details of PI/co-PI:
   |--------+---|
@@ -50,30 +50,37 @@
    |--------+---+---|
 
 * Details of requested VM(s):
-  |-------+------+-----|
-  | S.No. | OS   |     |
-  |-------+------+-----|
-  | RAM   | (GB) | CPU |
-  |-------+------+-----|
-  | ARCH  |      |     |
-  |-------+------+-----|
-  | HDD   | (GB) |     |
-  |-------+------+-----|
-  | QTY   |      |     |
-  |-------+------+-----|
+  |-------+---------+--------------|
+  | S.No. | OS      | Ubuntu 16.04 |
+  |-------+---------+--------------|
+  | RAM   | 16 (GB) | 8 Core       |
+  |-------+---------+--------------|
+  | ARCH  |         |              |
+  |-------+---------+--------------|
+  | HDD   | (GB)    |              |
+  |-------+---------+--------------|
+  | QTY   | 20      |              |
+  |       |         |              |
+  |-------+---------+--------------|
 
 * Extra Storage Details:
 |-------+---------------------------+----------|
 | S.No. | Type(NFS/iSCSI/RAW/QCOW2) | Size(GB) |
 |-------+---------------------------+----------|
-|       |                           |          |
+|     1 | NFS                       | 2TB      |
+|-------+---------------------------+----------|
+|     2 | NFS                       | 2TB      |
+|-------+---------------------------+----------|
+|     3 | NFS                       | 2TB      |
+|-------+---------------------------+----------|
+|     4 | NFS                       | 2TB      |
 |-------+---------------------------+----------|
 
 * Number of Public IP(s):
-
+  6
 * Ports to be opened for public access:
 
-
+  80, 443
 * Declaration
   We declare that our application has Security Audit
   Clearance. We are responsible for properly configuring and
