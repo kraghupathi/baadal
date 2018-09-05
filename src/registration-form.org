@@ -31,7 +31,7 @@
   | Email: |   |
   |--------+---|
 
-*  Details of Contact Person 1:
+* Details of Contact Person 1:
    |--------+---+---|
    | Name:  |   |   |
    |--------+---+---|
@@ -40,7 +40,7 @@
    | Email: |   |   |
    |--------+---+---|
 
-*  Details of Contact Person 2
+* Details of Contact Person 2
    |--------+---+---|
    | Name:  |   |   |
    |--------+---+---|
@@ -63,16 +63,15 @@
   |-------+------+-----|
 
 * Extra Storage Details:
-|-------+---------------------------+----------|
-| S.No. | Type(NFS/iSCSI/RAW/QCOW2) | Size(GB) |
-|-------+---------------------------+----------|
-|       |                           |          |
-|-------+---------------------------+----------|
+  |-------+---------------------------+----------|
+  | S.No. | Type(NFS/iSCSI/RAW/QCOW2) | Size(GB) |
+  |-------+---------------------------+----------|
+  |       |                           |          |
+  |-------+---------------------------+----------|
 
 * Number of Public IP(s):
 
 * Ports to be opened for public access:
-
 
 * Declaration
   We declare that our application has Security Audit
@@ -85,19 +84,19 @@
   that may arise due to our application and it will be sole
   responsibility of our organization.
 
-|--------------------------------------+---------------------------------|
-| Name and Signature of Contact Person | Name and Signature of PI/ co-PI |
-|--------------------------------------+---------------------------------|
-|                                      |                                 |
-|                                      |                                 |
-|                                      |                                 |
-|                                      |                                 |
-|                                      |                                 |
-|                                      |                                 |
-|                                      |                                 |
-|--------------------------------------+---------------------------------|
+  |--------------------------------------+---------------------------------|
+  | Name and Signature of Contact Person | Name and Signature of PI/ co-PI |
+  |--------------------------------------+---------------------------------|
+  |                                      |                                 |
+  |                                      |                                 |
+  |                                      |                                 |
+  |                                      |                                 |
+  |                                      |                                 |
+  |                                      |                                 |
+  |                                      |                                 |
+  |--------------------------------------+---------------------------------|
 
 
-*NOTE: Please fill this form by hand(in blue ink) and send
-its scanned copy to baadalsupport@cse.iitd.ernet.in*
+  *NOTE: Please fill this form by hand(in blue ink) and send
+  its scanned copy to baadalsupport@cse.iitd.ernet.in*
   

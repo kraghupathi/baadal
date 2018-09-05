@@ -24,6 +24,7 @@
   requirements in terms of infrastructure that Baadal is
   requisitioned for hosting the Virtual Labs cluster.
 
+
 * What VLEAD asked Baadal earlier
   What made requests to the Baadal before the effort on
   cluster evolution is started.  Those are captured [[./communications/2018-06-06-baadal-requirements.org][here]].
