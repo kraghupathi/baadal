@@ -1,77 +1,81 @@
-#+TITLE: Registration Form
-#+AUTHOR: VLEAD
+#+TITLE: NMEICT Cloud Service Registration Form
 #+DATE: [2018-09-03 Mon]
 #+SETUPFILE: ./org-templates/level-0.org
 #+TAGS: boilerplate(b)
 #+EXCLUDE_TAGS: boilerplate
 #+OPTIONS: ^:nil
+#+OPTIONS: toc:nil
 
 * Introduction
   This document contains the details asked for by the Baadal
   team for the registration of our Virtual Labs with the Baadal.
 
 * Name of the Application
-
+  Virtual Labs Cluster
 * Description
-
+  A cluster which provisions all the labs containerized in
+  Docker.
 * Details of Organization
-
-  |--------+---|
-  | Name:  |   |
-  |--------+---|
-  | Phone: |   |
-  |--------+---|
-  | Email: |   |
-  |--------+---|
+  |--------+------------------|
+  | Name:  | IIIT Hyderabad   |
+  |--------+------------------|
+  | Phone: | 040-66531584     |
+  |--------+------------------|
+  | Email: | engg@vlabs.ac.in |
+  |--------+------------------|
 
 * Details of PI/co-PI:
-  |--------+---|
-  | Name:  |   |
-  | Phone: |   |
-  | Email: |   |
-  |--------+---|
+  |--------+--------------------------------|
+  | Name:  | Venkatesh Choppella            |
+  |--------+--------------------------------|
+  | Phone: | 9652740281                     |
+  |--------+--------------------------------|
+  | Email: | venkatesh.choppella@iiit.ac.in |
+  |--------+--------------------------------|
 
 * Details of Contact Person 1:
-   |--------+---+---|
-   | Name:  |   |   |
-   |--------+---+---|
-   | Phone: |   |   |
-   |--------+---+---|
-   | Email: |   |   |
-   |--------+---+---|
+   |--------+---------------------+---|
+   | Name:  | Thirumal Ravula     |   |
+   |--------+---------------------+---|
+   | Phone: | 9490448747          |   |
+   |--------+---------------------+---|
+   | Email: | travula@vlabs.ac.in |   |
+   |--------+---------------------+---|
 
 * Details of Contact Person 2
-   |--------+---+---|
-   | Name:  |   |   |
-   |--------+---+---|
-   | Phone: |   |   |
-   |--------+---+---|
-   | Email: |   |   |
-   |--------+---+---|
+   |--------+--------------------+---|
+   | Name:  | Medhamsh           |   |
+   |--------+--------------------+---|
+   | Phone: | 8886009164         |   |
+   |--------+--------------------+---|
+   | Email: | medhamsh@gmail.com |   |
+   |--------+--------------------+---|
 
 * Details of requested VM(s):
-  |-------+------+-----|
-  | S.No. | OS   |     |
-  |-------+------+-----|
-  | RAM   | (GB) | CPU |
-  |-------+------+-----|
-  | ARCH  |      |     |
-  |-------+------+-----|
-  | HDD   | (GB) |     |
-  |-------+------+-----|
-  | QTY   |      |     |
-  |-------+------+-----|
+  |-------+--------------+---------+--------+--------+---------+-----|
+  | S.No. | OS           | RAM(GB) | CPU    | Arch   | HDD(GB) | Qty |
+  |-------+--------------+---------+--------+--------+---------+-----|
+  |    1. | Ubuntu 16.04 |      16 | 8 Core | x86_64 | 100     |  20 |
+  |       |              |         |        |        |         |     |
+  |-------+--------------+---------+--------+--------+---------+-----|
+
 
 * Extra Storage Details:
-  |-------+---------------------------+----------|
-  | S.No. | Type(NFS/iSCSI/RAW/QCOW2) | Size(GB) |
-  |-------+---------------------------+----------|
-  |       |                           |          |
-  |-------+---------------------------+----------|
+#+ALIGN:left
+|-------+---------------------------+----------|
+| S.No. | Type(NFS/iSCSI/RAW/QCOW2) | Size(GB) |
+|-------+---------------------------+----------|
+|     1 | NFS                       | 2TB      |
+|-------+---------------------------+----------|
+|     2 | NFS                       | 2TB      |
+|-------+---------------------------+----------|
+
 
 * Number of Public IP(s):
+  6
 
 * Ports to be opened for public access:
+  80, 443
 
 * Declaration
   We declare that our application has Security Audit
@@ -84,6 +88,7 @@
   that may arise due to our application and it will be sole
   responsibility of our organization.
 
+  #+ALIGN:left
   |--------------------------------------+---------------------------------|
   | Name and Signature of Contact Person | Name and Signature of PI/ co-PI |
   |--------------------------------------+---------------------------------|
